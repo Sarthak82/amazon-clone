@@ -1,4 +1,4 @@
-const reducer=(state, action)=>{
+const reducer= (state, action) =>{
     switch(action.type){
         case 'ADD_TO_BASKET':
             return{
@@ -26,6 +26,11 @@ const reducer=(state, action)=>{
             return{
                 ...state,
                 user: action.user
+            }
+
+        default:
+            return{
+                ...state
             }
         }
     }
