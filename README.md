@@ -1,3 +1,6 @@
+# Project Link
+The link for the amazon clone: [https://clone-a6ed3.web.app](https://clone-a6ed3.web.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
