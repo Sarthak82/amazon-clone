@@ -7,10 +7,9 @@ const reducer= (state, action) =>{
             };
 
         case 'REMOVE_FROM_BASKET':
+
             const index=state.basket.findIndex((basketItem)=>basketItem.id===action.id)
-
             let newBasket=[...state.basket]
-
             if(index>=0){
                 newBasket.splice(index, 1)
             }else{
@@ -26,6 +25,12 @@ const reducer= (state, action) =>{
             return{
                 ...state,
                 user: action.user
+            }
+
+        case 'EMPTY_BASKET':
+            return{
+                ...state,
+                basket:[]
             }
 
         default:
