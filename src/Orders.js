@@ -29,7 +29,7 @@ function Orders() {
   },[user])
   return (
     <div className='orders'>
-        <h1>This is the oreder page</h1>
+        <h1>Your Orders: </h1>
       
         <div className='orders__orders'>
           {orders?.map(order =>(<Order order={order}/>))}
