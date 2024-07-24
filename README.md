@@ -1,8 +1,9 @@
 # Project Link
 The link for the amazon clone: [https://clone-a6ed3.web.app](https://clone-a6ed3.web.app)
+
+# Credentials
 Email: test001@gmail.com
 password: qwertyuiop
-
 stripe card: 4242424242424242 1234 567 12345
 
 # Getting Started with Create React App
