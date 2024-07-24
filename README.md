@@ -1,14 +1,14 @@
-#Description
+# Description
 This project is an Amazon clone e-commerce application built with modern web technologies. It replicates several key features of the Amazon shopping experience, including a shopping basket, payment processing, order history, and user authentication. The backend is powered by Firebase, providing real-time database and authentication services.
 
-#Features
+# Features
 Shopping Basket: Add and remove items with real-time updates.
 Payment Processing: Secure payments integrated using Stripe API.
 Order History: Track and view past orders.
 User Authentication: Sign-In/Sign-Out pages for managing user sessions.
 Backend Services: Powered by Firebase for real-time data and authentication.
 
-#Technologies Used
+# Technologies Used
 Frontend: JavaScript, React, HTML, CSS
 Backend: Firebase (Realtime Database, Authentication)
 Payments: Stripe API
